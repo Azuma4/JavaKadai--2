@@ -24,7 +24,7 @@ public class Main {
 
         System.out.println("<A型かつ40歳以上の俳優>");
         for (Actor actor : actors) {
-            if (actor.getBloodtype().equals("A") & actor.getAge() >=40) {
+            if (actor.getBloodtype().equals("A") && actor.getAge() >= 40) {
                 System.out.println(actor.getName());
             }
         }
